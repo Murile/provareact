@@ -14,6 +14,7 @@ export default function Home(){
                 <li><Link to='/media'>Media</Link></li>
                 <li><Link to='/tabuada'>Tabauda</Link></li>
                 <li><Link to='/temperatura'>Temperatura</Link></li>
+                <li><Link to='/corprimaria'>Cor</Link></li>
             </ul>
         </main>
     )}
