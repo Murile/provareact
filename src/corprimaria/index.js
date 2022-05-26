@@ -9,7 +9,7 @@ export default function CorPrimaria() {
     async function verificarCorPrimaria() {
        const resp = await axios.get('http://localhost:5000/dia2/corprimaria/' + cor);
 
-       if (resp.data.primaira === true) {
+       if (resp.data.corprimaria === true) {
            setResposta('SIM!');
        }
        else {
